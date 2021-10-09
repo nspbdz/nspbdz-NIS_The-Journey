@@ -1,0 +1,654 @@
+#avatarStyle{
+  object-fit: cover;
+  width: 45px;
+  height: 45px;
+}
+#detailImgStyle{
+  width: 1100px;
+height: 691px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.dropdown-menu {
+  margin-top: 1em !important;
+  border: none;
+  filter: drop-shadow(0 0 2px grey);
+ }
+ 
+ .dropdown-menu::before {
+  z-index: -1;
+  content: url('../assets/images/triangle.svg');
+  position: absolute;
+  top: -1em;
+  left: 10.3em;
+ }
+#navbar{
+    pointer-events: none;
+    opacity: 0;
+  
+}
+.dropdown-menu{
+  cursor: pointer;
+  position: absolute !important;
+  left: -10em;
+  top: 3.5em;
+
+}
+.nav.dropdown:focus{
+  border: blue;
+  /* outline-color: black; */
+  outline: black;
+}
+
+  
+  .dropdown-item.active, .dropdown-item:active {
+    content: none;
+    
+  }
+
+  .dropdown-toggle:hover {
+    content: none;
+    color: transparent;
+
+
+  }
+  .dropdown-toggle:focus {
+    content: none;
+    color: transparent;
+
+
+  }
+  .dropdown-toggle:checked {
+    content: none;
+  
+  }
+  .dropdown-toggle {
+    content: none;
+    
+    color: transparent;
+    text-decoration: none;
+    /* outline-color: blue; */
+    outline: none;
+  }
+
+  .show-dropdown{
+    outline: blue;
+    color: blue;
+
+  }
+
+  #cardDescription{
+    max-height: 200px;
+  }
+
+  .inner {
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+  
+  #imgProfile{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #2E86DE;
+    box-sizing: border-box;
+    border-radius: 100%; 
+    object-fit: cover;
+  }
+  #profileName{
+    font-family: Avenir;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+/* identical to box height */
+
+
+color: #000000;
+
+  }
+  #profileEmail{
+    font-family: Avenir;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  display:block;
+/* identical to box height */
+
+
+color: #6C6C6C;
+  }
+#userProfileWrap{
+  text-align: center;
+}
+#userImgWrap{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+  
+  #bookmarkStyle{
+    width: 25px;
+    height: 25px;
+    color: red;
+    position: absolute;
+  top: 7px;
+  right:8px;
+  }
+  Carousel.Item >img{
+    opacity: 1;
+  }
+  #wrapBookmarkStyle{
+    /* style={{ width: "30px", height: "20px", backgroundColor:"white",borderRadius:"35px" }} */
+    width: 30px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    float: right;
+    text-align: center;
+    position: absolute;
+  top: 5px;
+  right:  -5px;
+  margin-left: 200px;
+ 
+  }
+  #userIcon{
+    width: 25px;
+  }
+  #journeyIcon{
+    width: 25px;
+  }
+  #bookmarkIcon{
+    width: 15px;
+    margin-left: 5px
+  }
+  #logoutIcon{
+    width: 35px;
+    height: 25px;
+  }
+  #dropText{
+    background-color: transparent;
+    color: black;
+    margin-left: 10px;
+  }
+
+  
+  #carouselimg{
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)); */
+    /* background: rgba(0, 0, 0, 0.55); */
+    background: rgb(0, 0, 0); /* fallback color */
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px; 
+    background-size: cover;
+    object-fit: cover;
+    margin-bottom: 50px;
+    
+  }
+  .carousel-indicators li {
+    background-color: transparent; 
+    pointer-events: none;
+  }
+  .carousel-caption {
+    position: absolute;
+    left: auto;
+    right: auto;
+    width: 50%;
+    height: 70%;
+    /* background-color: #428bca; */
+    opacity: 0.8;
+    bottom:0;
+    left:0;
+}
+
+#titleCarousel{
+  text-align: left;
+  margin-top: 140px;
+  font-family: Avenir;
+font-weight: 900;
+font-size: 64px;
+line-height: 112.2%;
+align-items: center;
+letter-spacing: -0.03em;
+
+color: #FFFFFF;
+}
+#textCarousel{ 
+  letter-spacing: -1px;  
+  text-align: left;
+  font-weight: 400;
+  font-family: Avenir;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #FFFFFF;
+
+}
+
+
+
+#wrapBtnSign{
+  width:85px;
+  margin-right:10px;
+}
+
+#btnLogin{
+  border-radius: 10px;
+  background-color: transparent;
+  Width :100px;
+  Height :35px;
+  border-color: #FFFFFF ;
+}
+#textBtnLogin{
+  color: #FFFFFF;
+  margin: auto;
+  /* outline: 2px; */
+
+}
+#btnRegister{
+border-radius: 10px;
+margin-left: 15px;
+/* background-color:#BD0707; */
+width: 100px;
+Height :35px;
+}
+#textBtnRegister{
+  margin: auto;
+}
+.btn{
+  border: none;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+  outline-offset: none ;
+}
+#btnModal{
+  background-color: #2E86DE;
+  width: 400px;
+   height: 38px;
+   border-radius: 5px;
+}
+#titleModal{
+  padding-top:20px ;
+  padding-bottom: 29px;
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 66px;
+/* identical to box height */
+  color: #000000;
+}
+#updateProfile{
+  width:213px;
+  height:50px;
+  /* background-color:#BD0707; */
+}
+
+#listJourneyImg{
+  width: 100px;
+  height: 50px;
+}
+.cardListWrap{
+  display: inline-block;
+}
+
+
+
+#bodyCard{
+  width: 250px;
+height: 220px;
+left: 49px;
+top: 615px;
+
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+box-shadow: 0px 0px 15px rgba(82, 82, 82, 0.18);
+border-radius: 5px;
+}
+
+#wrapSearchForm{
+  margin-left: 20px;
+  width: 95%;
+  margin-bottom: 50px;
+}
+
+#styleNavbar{
+  background: #F1F1F1;
+box-shadow: 0px 4px 36px rgba(0, 0, 0, 0.25);
+}
+#wrapTitle{
+  margin-top: 65px;
+  margin-bottom: 40px;
+}
+
+.wrapCardImg {
+  /* position: relative;   */
+  width:250px;
+  height: 150px;
+}
+#imgCard{
+  border-radius: 10px;
+  width: 250px;
+height: 150px;
+object-fit: cover;
+border:"none"
+}
+
+.wrapCardImgProfile {
+  position: relative;  
+  width:100%;
+}
+.wrapCardImgProfile:before {
+content:"";
+position:absolute;
+width:250px;
+height:100%;
+top:0;left:0;right:0;
+background-color:rgba(0,0,0,0);
+}
+.wrapCardImgProfile:hover::before {
+background-color:rgba(0,0,0,0.5);
+}
+.wrapCardImgProfile img {
+display:block;
+}
+.wrapCardImgProfile button {
+position: absolute;
+top: 10%;
+left: 10%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+opacity:0;
+} 
+.wrapCardImgProfile:hover button {   
+opacity: 1;
+}
+.wrapCardImgProfile div {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  opacity:0;
+  } 
+  .wrapCardImgProfile:hover div {   
+  opacity: 1;
+  }
+
+
+#btnCard{
+  background-color: #2E86DE;
+}
+
+#wrapEditIcon{
+  background-color: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+#editIcon{
+  margin-left: 5px;
+  width: 25px;
+  height: 25px;
+  color: blue;
+}
+#deleteIcon{
+  margin-left:3px;
+  width: 25px;
+  height: 25px;
+  color: blue;
+  /* background-color: blue; */
+}
+#wrapDeleteIcons{
+  background-color: #FFFFFF;
+  width: 30px;
+  height: 30px;
+  margin-left: 40px;
+  border-radius: 10px;
+}
+#titleDetailJourney{
+  font-family: Avenir;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 66px;
+  /* identical to box height */
+  
+  color: #000000;
+}
+
+#authorDetailJourney{
+  float: right;
+  display: inline;
+  font-family: Avenir;
+font-weight: normal;
+font-size: 24px;
+line-height: 66px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+#wrapdetailJourneyHeader{
+  margin-top: 65px;
+
+}
+#wrapCreatedDetailJourney{
+  margin-top: 7px;
+  margin-bottom: 20px;
+}
+#createdDetailJourney{
+  font-family: Product Sans;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  
+  color: #3B97D3;
+}
+#wrapDescriptionDetailJourney{
+  margin-top: 65px;
+}
+
+#headerBookmark{
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+#bookmarkPageTitle{
+  font-family: Avenir;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 66px;
+  color: #000000;
+}
+#updateProfileBtn{
+  margin-right: 30px;
+  border-radius: 100px;
+}
+#newJourneyBtnProfile{
+  margin-right: 30px;
+  border-radius: 100px;
+}
+#modalStyleShape{
+  content: url('../assets/images/shape.svg');
+  width: 50px;
+  height: 70px;
+  position: absolute;
+  left: -0.5px;
+}
+
+#modalStyleLeaf{
+  content: url('../assets/images/leaf1.svg');
+  width: 100.99px;
+  height: 120.44px;
+position: absolute;
+right: -2px;
+top: 10;
+}
+#modalBtn{
+  /* background-color: ; */
+  width: 400px;
+   height: 38px;
+   border-radius: 5px;
+}
+
+
+#titleCardList{
+  font-family: Product Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  
+  color: #000000;
+}
+#dateCardList{
+  font-family: Product Sans;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  margin-bottom: 17px;
+  
+  display: flex;
+  align-items: center;
+  
+  color: #BFBFBF;
+}
+
+#descriptionCardList{
+  font-family: Product Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 17px;
+
+color: #6C6C6C;
+
+}
+#styleCard{
+  margin-top: 50px;
+  width:15rem;
+  margin-bottom: 50px;
+  margin-right: 10px;
+}
+#textTodayJourney{
+  font-family: Avenir;
+font-weight: 900;
+font-size: 48px;
+line-height: 66px;
+
+color: #000000;
+margin-bottom: 10px;
+}
+#titleNotFound{
+  margin-left: 100px;
+  margin-top: 50px;
+  font-family: Avenir;
+font-weight: 900;
+font-size: 38px;
+line-height: 66px;
+margin-bottom: 50px;
+
+color: red;
+}
+#titleProfile{
+  margin-top: 50px;
+  font-family: Avenir;
+font-weight: 900;
+font-size: 48px;
+line-height: 66px;
+margin-bottom: 50px;
+/* margin-left: 30px; */
+color: #000000;
+}
+
+#titleHome{
+  margin-top: 50px;
+  font-family: Avenir;
+font-weight: 900;
+font-size: 48px;
+line-height: 66px;
+margin-bottom: 50px;
+margin-left: 120px;
+color: #000000;
+
+}
+
+
+#formProduct{
+  background: rgba(224, 200, 200, 0.25);
+  border-right:"none";
+  border: 2px solid #0275d8 ;
+  
+}
+#formProducts{  
+  margin-left: 20px;
+  background: rgba(224, 200, 200, 0.25);
+  border-right:"none";
+  border: 2px solid #0275d8;
+}
+.btn:focus {
+  outline: none !important;
+  outline-offset: none !important;
+  
+}
+.btn{
+  border: none;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+  background-color: #2F3E48;
+  color:#FFF;
+  border-color: #31347B;
+}
+.input:focus{
+  outline: none
+  /* outline-offset: none !important; */
+
+}
+.form-control:focus {
+  box-shadow: none;
+}
+#search-button{
+  background-color: "#5A57AB"
+  
+}
+#btnsearch{
+  width: 25px;
+  height: 25px;
+}
+#btnAddWrap{
+  text-align: center;
+ 
+}
+#btnAdd{
+  width: 900px;
+  height: 50px;
+}
+
+body {
+  background-color: #E5E5E5 !important;
+}
+
+#styleAlartIcon{
+  width: 200px;
+  height: 150px;
+  color: red;
+}
+
+#wrapIcon{
+  margin-left: 40px;
+}
+#wrapModalTransaction{
+  margin-left: 100px;
+  margin-right: auto;
+  font-size: 14px;
+  
+}

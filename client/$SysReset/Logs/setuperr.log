@@ -1,0 +1,48 @@
+﻿2020-01-27 19:59:02, Error                        0x80070003 in PushButtonReset::RegKey::HasValue (base\reset\util\src\registry.cpp:187): Failed to load subkey at [Microsoft\Windows\Signature][gle=0x00000002]
+2020-01-27 19:59:40, Error                        [sysreset.exe]  (WinRE)WinReIsInstalledOnSystemPartitionInternal() Invalid parameters
+2020-01-27 19:59:59, Error                        GetEnrollmentsOfTypes 0x80070002[gle=0x00000002]
+2020-01-27 20:01:54, Error                 CSI    0000081c@2020/1/28:04:01:54.013 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:01:54, Error                 CSI    0000081d (F) Failed on generating delta for: [l:29]'OneCoreUAPCommonProxyStub.dll'[gle=0x80004005]
+2020-01-27 20:01:55, Error                 CSI    0000087b@2020/1/28:04:01:55.678 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:01:55, Error                 CSI    0000087c (F) Failed on generating delta for: [l:15]'EdgeManager.dll'[gle=0x80004005]
+2020-01-27 20:01:55, Error                 CSI    0000087d@2020/1/28:04:01:55.991 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:01:56, Error                 CSI    0000087e (F) Failed on generating delta for: [l:10]'mshtml.tlb'[gle=0x80004005]
+2020-01-27 20:02:00, Error                 CSI    00000c45@2020/1/28:04:02:00.335 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:02:00, Error                 CSI    00000c46 (F) Failed on generating delta for: [l:12]'winspool.drv'[gle=0x80004005]
+2020-01-27 20:02:01, Error                 CSI    000010c4@2020/1/28:04:02:01.507 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:02:01, Error                 CSI    000010c5 (F) Failed on generating delta for: [l:26]'XpsDocumentTargetPrint.dll'[gle=0x80004005]
+2020-01-27 20:02:06, Error                 CSI    00002beb@2020/1/28:04:02:06.988 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:02:07, Error                 CSI    00002bec (F) Failed on generating delta for: [l:12]'iertutil.dll'[gle=0x80004005]
+2020-01-27 20:02:10, Error                 CSI    00005a8e@2020/1/28:04:02:10.910 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:02:11, Error                 CSI    00005a8f (F) Failed on generating delta for: [l:11]'ieframe.dll'[gle=0x80004005]
+2020-01-27 20:02:16, Error                 CSI    0000b426@2020/1/28:04:02:16.236 (F) onecore\base\wcp\rtllib\win32lib\delta_library.cpp(287): Error NTSTATUS_FROM_WIN32(ERROR_INVALID_DATA) originated in function Windows::Rtl::DeltaDecompressBuffer expression: g_pfnApplyDeltaB(( (DELTA_FLAG_TYPE)0x00000000 ), ReferenceInput, CompressedInput, &UncompressedOutput)
+[gle=0x80004005]
+2020-01-27 20:02:16, Error                 CSI    0000b427 (F) Failed on generating delta for: [l:12]'XpsPrint.dll'[gle=0x80004005]
+2020-01-27 20:02:23, Error                 CSI    0000ca57@2020/1/28:04:02:23.980 (F) onecore\base\wcp\primitiveinstallers\filehierarchy.cpp(2285): Store corruption detected in function FileInstaller::CFileInstallerHierarchy::CommitFileChanges expression: 0
+  MissingFileSystemResource on resource '\winsxs\amd64_microsoft-windows-ie-htmlrendering_31bf3856ad364e35_11.0.15063.0_none_584866adc5d2125b\edgemanager.dll'[gle=0x80004005]
+2020-01-27 20:02:24, Error                 CSI    0000ca58 (F) STATUS_SXS_COMPONENT_STORE_CORRUPT #17200920# from CFileInstaller::CommitChanges(...)[gle=0xd015001a]
+2020-01-27 20:02:24, Error                 CSI    0000ca59 (F) STATUS_SXS_COMPONENT_STORE_CORRUPT #15146758# from PrimitiveInstaller::CCoordinator::FinalizeChanges(...)[gle=0xd015001a]
+2020-01-27 20:02:24, Error                 CSI    0000ca5b (F) STATUS_SXS_COMPONENT_STORE_CORRUPT #7649256# from CCSDirectTransaction::PerformChangeAnalysis(...)[gle=0xd015001a]
+2020-01-27 20:02:24, Error                 CSI    0000ca5c (F) STATUS_SXS_COMPONENT_STORE_CORRUPT #7649255# from CCSDirectTransaction::PrepareForCommit(...)[gle=0xd015001a]
+2020-01-27 20:02:24, Error                 CSI    0000ca5d (F) STATUS_SXS_COMPONENT_STORE_CORRUPT #7649254# from CCSDirectTransaction::ExamineTransaction(...)[gle=0xd015001a]
+2020-01-27 20:02:24, Error                 CSI    0000ca5e (F) STATUS_SXS_COMPONENT_STORE_CORRUPT #7649253# from CCSDirectTransaction_IRtlTransaction::ExamineTransaction(...)[gle=0xd015001a]
+2020-01-27 20:02:24, Error                 CSI    0000ca5f (F) HRESULT_FROM_WIN32(14098) #7597263# from Windows::COM::CPendingTransaction::IStorePendingTransaction_Analyze(...)[gle=0x80073712]
+2020-01-27 20:02:24, Error                 CSI    0000ca60 (F) HRESULT_FROM_WIN32(14098) #7507966# from Windows::ServicingAPI::CCSITransaction::ICSITransaction2_Analyze(Flags = 0, riid = {7a8b78de-d107-46ca-812b-8e3f1c163270}, ppUnk = NULL, disp = 0)[gle=0x80073712]
+2020-01-27 20:02:24, Error                 CBS    Failed to process single phase execution. [HRESULT = 0x80073712 - ERROR_SXS_COMPONENT_STORE_CORRUPT]
+2020-01-27 20:02:24, Error                 CBS    Failed to perform operation.  [HRESULT = 0x80073712 - ERROR_SXS_COMPONENT_STORE_CORRUPT]
+2020-01-27 20:02:24, Error                 SP     CReconstructOS::ReconstructWindows: ::ReconstructWindows failed: 0x80073712
+2020-01-27 20:02:24, Error                 SP     CReconstructOS::DoExecute: Servicing stack failed to reconstruct OS: 0x80073712
+2020-01-27 20:02:24, Error                 SP     Operation failed: Reconstruct OS from Packages. Error: 0x80073712[gle=0x000000b7]
+2020-01-27 20:02:24, Error                        0x80004005 in PushButtonReset::OpExecSetup::InternalExecute (base\reset\engine\operations\src\execsetup.cpp:1411): Operation execution failed: System State: [4][gle=0x000000b7]
+2020-01-27 20:02:24, Error                        0x80004005 in PushButtonReset::Operation::Execute (base\reset\engine\exec\src\operation.cpp:480): Internal failure in subtype execution routine[gle=0x000000b7]
+2020-01-27 20:02:24, Error                        0x80004005 in PushButtonReset::Executer::Execute (base\reset\engine\exec\src\executer.cpp:366): Internal error while executing operation[gle=0x00000002]
+2020-01-27 20:02:24, Error                        0x80004005 in ResetExecute (base\reset\engine\dll\clientapi.cpp:1193): Failed to execute offline operation queue[gle=0x00000002]
+2020-01-27 20:02:41, Error                        0x80004005 in srRefreshMain (base\reliability\recovery\sysreset\sysreset.cpp:1983): [gle=0x00000057]
+2020-01-27 20:02:41, Error                        wWinMain: srRefreshMain failed: 0x80004005

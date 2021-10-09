@@ -1,0 +1,188 @@
+﻿2019-12-15 12:44:06, Info                  DISM   PID=1948 TID=1940 Scratch directory set to 'X:\windows\TEMP\'. - CDISMManager::put_ScratchDir
+2019-12-15 12:44:06, Info                  DISM   PID=1948 TID=1940 DismCore.dll version: 10.0.15063.0 - CDISMManager::FinalConstruct
+2019-12-15 12:44:06, Info                  DISM   PID=1948 TID=1940 Scratch directory set to 'E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9'. - CDISMManager::put_ScratchDir
+2019-12-15 12:44:06, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2019-12-15 12:44:06, Info                  DISM   PID=1948 TID=1940 Successfully loaded the ImageSession at "X:\Sources" - CDISMManager::LoadLocalImageSession
+2019-12-15 12:44:06, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2019-12-15 12:44:06, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2019-12-15 12:44:06, Info                  DISM   DISM Manager: PID=1948 TID=1940 Successfully created the local image session and provider store. - CDISMManager::CreateLocalImageSession
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: 
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: <----- Starting Dism.exe session ----->
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: 
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Host machine information: OS Version=10.0.15063, Running architecture=amd64, Number of processors=4
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Dism.exe version: 10.0.15063.0
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Executing command line: X:\Sources\dism.exe  /logpath:E:\$WINDOWS.~BT\Sources\Panther\cbs.log /scratchdir:E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9 /image:E:\ /is-serviceable
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Getting the collection of providers from a local provider store type. - CDISMProviderStore::GetProviderCollection
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Connecting to the provider located at X:\Sources\FolderProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Connecting to the provider located at X:\Sources\WimProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Connecting to the provider located at X:\Sources\VHDProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Connecting to the provider located at X:\Sources\ImagingProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Connecting to the provider located at X:\Sources\CompatProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:06, Warning               DISM   DISM Provider Store: PID=1948 TID=1940 Failed to Load the provider: X:\Sources\FfuProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2019-12-15 12:44:06, Warning               DISM   DISM Provider Store: PID=1948 TID=1940 Failed to Load the provider: X:\Sources\SiloedPackageProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2019-12-15 12:44:06, Warning               DISM   DISM Provider Store: PID=1948 TID=1940 Failed to Load the provider: X:\Sources\MetaDeployProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Got the collection of providers. Now enumerating them to build the command table.
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Log Provider
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: FolderManager
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: WimManager
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: WimManager.
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: VHDManager
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: GenericImagingManager
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: GenericImagingManager.
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: Compatibility Manager
+2019-12-15 12:44:06, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: Compatibility Manager.
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Getting the collection of providers from a local provider store type. - CDISMProviderStore::GetProviderCollection
+[1948] [0x80070002] FIOReadFileIntoBuffer:(1259): The system cannot find the file specified.
+[1948] [0xc142011c] UnmarshallImageHandleFromDirectory:(639)
+[1948] [0xc142011c] WIMGetMountedImageHandle:(2893)
+2019-12-15 12:44:06, Info                  DISM   DISM WIM Provider: PID=1948 TID=1940 [E:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2019-12-15 12:44:06, Info                  DISM   DISM VHD Provider: PID=1948 TID=1940 [E:\] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2019-12-15 12:44:06, Info                  DISM   DISM VHD Provider: PID=1948 TID=1940 [E:\] is not recognized by the DISM VHD provider. - CVhdImage::Initialize
+2019-12-15 12:44:06, Info                  DISM   DISM Imaging Provider: PID=1948 TID=1940 The provider VHDManager does not support CreateDismImage on E:\ - CGenericImagingManager::CreateDismImage
+[1948] [0x80070002] FIOReadFileIntoBuffer:(1259): The system cannot find the file specified.
+[1948] [0xc142011c] UnmarshallImageHandleFromDirectory:(639)
+[1948] [0xc142011c] WIMGetMountedImageHandle:(2893)
+2019-12-15 12:44:06, Info                  DISM   DISM WIM Provider: PID=1948 TID=1940 [E:\] is not a WIM mount point. - CWimMountedImageInfo::Initialize
+2019-12-15 12:44:06, Info                  DISM   DISM Imaging Provider: PID=1948 TID=1940 The provider WimManager does not support CreateDismImage on E:\ - CGenericImagingManager::CreateDismImage
+2019-12-15 12:44:06, Info                  DISM   DISM Imaging Provider: PID=1948 TID=1940 No imaging provider supported CreateDismImage for this path - CGenericImagingManager::CreateDismImage
+2019-12-15 12:44:06, Info                  DISM   DISM Manager: PID=1948 TID=1940 physical location path: E:\ - CDISMManager::CreateImageSession
+2019-12-15 12:44:06, Info                  DISM   DISM Manager: PID=1948 TID=1940 Event name for current DISM session is Global\__?_Volume{4a77f763-0000-0000-0000-501f00000000}__3131143_65536_30235 - CDISMManager::CheckSessionAndLock
+2019-12-15 12:44:06, Info                  DISM   DISM Manager: PID=1948 TID=1940 Create session event 0x1e8 for current DISM session and event name is Global\__?_Volume{4a77f763-0000-0000-0000-501f00000000}__3131143_65536_30235  - CDISMManager::CheckSessionAndLock
+2019-12-15 12:44:06, Info                  DISM   DISM Manager: PID=1948 TID=1940 Copying DISM from "E:\Windows\System32\Dism" - CDISMManager::CreateImageSessionFromLocation
+2019-12-15 12:44:06, Info                  DISM   DISM Manager: PID=1948 TID=1940 Successfully loaded the ImageSession at "E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671" - CDISMManager::LoadRemoteImageSession
+2019-12-15 12:44:06, Info                  DISM   DISM Image Session: PID=1480 TID=1600 Instantiating the Provider Store. - CDISMImageSession::get_ProviderStore
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Initializing a provider store for the IMAGE session type. - CDISMProviderStore::Final_OnConnect
+2019-12-15 12:44:06, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\OSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:06, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Defaulting SystemPath to E:\ - CDISMOSServiceManager::Final_OnConnect
+2019-12-15 12:44:06, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Host OS verion is 10.0 - CDISMOSServiceManager::RunASICompatibilityShim
+2019-12-15 12:44:06, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Defaulting Windows folder to E:\Windows - CDISMOSServiceManager::Final_OnConnect
+2019-12-15 12:44:06, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Host OS verion is 10.0 - CDISMOSServiceManager::SetDllSearchPath
+2019-12-15 12:44:06, Warning               DISM   DISM OS Provider: PID=1480 TID=1600 Unable to set the DLL search path to the servicing stack folder. E:\Windows may not point to a valid Windows folder. - CDISMOSServiceManager::Final_OnConnect
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Attempting to initialize the logger from the Image Session. - CDISMProviderStore::Final_OnConnect
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\LogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:09, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Found and Initialized the DISM Logger. - CDISMProviderStore::Internal_InitializeLogger
+2019-12-15 12:44:09, Warning               DISM   DISM Provider Store: PID=1480 TID=1600 Failed to Load the provider: E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\PEProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Failed to get and initialize the PE Provider.  Continuing by assuming that it is not a WinPE image. - CDISMProviderStore::Final_OnConnect
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finished initializing the Provider Map. - CDISMProviderStore::Final_OnConnect
+2019-12-15 12:44:09, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2019-12-15 12:44:09, Info                  DISM   Initialized Panther logging at E:\$WINDOWS.~BT\Sources\Panther\cbs.log
+2019-12-15 12:44:09, Info                  DISM   DISM Manager: PID=1948 TID=1940 Image session successfully loaded from the temporary location: E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671 - CDISMManager::CreateImageSession
+2019-12-15 12:44:09, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Setting SystemPath to E:\ - CDISMOSServiceManager::SetSystemPath
+2019-12-15 12:44:09, Info                  DISM   DISM.EXE: Target image information: OS Version=10.0.15063.0, Image architecture=amd64
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Getting the collection of providers from an image provider store type. - CDISMProviderStore::GetProviderCollection
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\CbsProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:09, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:09, Info                  DISM   DISM Package Manager: PID=1480 TID=1600 Finished initializing the CbsConUI Handler. - CCbsConUIHandler::Initialize
+2019-12-15 12:44:12, Info                  DISM   DISM Package Manager: PID=1480 TID=1600 Loaded servicing stack for offline use only. - CDISMPackageManager::CreateCbsSession
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\MsiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\IntlProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\IBSProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\DmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Get the registry path to the SOFTWARE hive located at E:\Windows\system32\config\SOFTWARE and determine if it is loaded. - CDISMOSServiceManager::DetermineBootDrive
+2019-12-15 12:44:12, Info                  DISM   DISM Driver Manager: PID=1480 TID=1600 Further logs for driver related operations can be found in the target operating system at %WINDIR%\inf\setupapi.offline.log - CDriverManager::Initialize
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\UnattendProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\SmiProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Warning               DISM   DISM Provider Store: PID=1480 TID=1600 Failed to Load the provider: E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\EmbeddedProvider.dll. - CDISMProviderStore::Internal_GetProvider(hr:0x8007007e)
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\AppxProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:12, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\ProvProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\AssocProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\GenericProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\OfflineSetupProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Connecting to the provider located at E:\$WINDOWS.~LS\PackageTemp\f498a283-ae74-4734-b5b5-364f17dd2ce9\B0559081-FA70-49E7-8E84-E42B714A7671\TransmogProvider.dll. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Encountered a servicing provider, performing additional servicing initializations. - CDISMProviderStore::Internal_LoadProvider
+2019-12-15 12:44:13, Info                  DISM   DISM Transmog Provider: PID=1480 TID=1600 Current image session is [OFFLINE] - CTransmogManager::GetMode
+2019-12-15 12:44:13, Info                  DISM   DISM Transmog Provider: PID=1480 TID=1600 Determined WinDir path = [E:\Windows] - CTransmogManager::GetWinDirPath
+2019-12-15 12:44:13, Info                  DISM   DISM Transmog Provider: PID=1480 TID=1600 GetProductType: ProductType = [WinNT] - CTransmogManager::GetProductType
+2019-12-15 12:44:13, Info                  DISM   DISM Transmog Provider: PID=1480 TID=1600 Product Type: [WinNT] - CTransmogManager::Initialize
+2019-12-15 12:44:13, Info                  DISM   DISM Transmog Provider: PID=1480 TID=1600 Product Type ServerNT : [No] - CTransmogManager::Initialize
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Got the collection of providers. Now enumerating them to build the command table.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Log Provider
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: OSServices
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Package Manager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DISM Package Manager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: MsiManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: MsiManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: IntlManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: IntlManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: IBSManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DriverManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DriverManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: DISM Unattend Manager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: DISM Unattend Manager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: SmiManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: AppxManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: AppxManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: ProvManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: ProvManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: AssocManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: AssocManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: GenericManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: GenericManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: OfflineSetupManager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: OfflineSetupManager.
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Attempting to add the commands from provider: Edition Manager
+2019-12-15 12:44:13, Info                  DISM   DISM.EXE: Succesfully registered commands for the provider: Edition Manager.
+2019-12-15 12:44:13, Info                  DISM   DISM Package Manager: PID=1480 TID=1600 Processing the top level command token(is-serviceable). - CPackageManagerCLIHandler::Private_ValidateCmdLine
+2019-12-15 12:44:13, Info                  DISM   DISM Package Manager: PID=1480 TID=1600 Attempting to route to appropriate command handler. - CPackageManagerCLIHandler::ExecuteCmdLine
+2019-12-15 12:44:13, Info                  DISM   DISM Package Manager: PID=1480 TID=1600 Routing the command... - CPackageManagerCLIHandler::ExecuteCmdLine
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Found the PE Provider.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2019-12-15 12:44:13, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(DISM Package Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Package Manager: PID=1480 TID=1600 Finalizing CBS core. - CDISMPackageManager::Finalize
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: DISM Package Manager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(MsiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: MsiManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(IntlManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: IntlManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(IBSManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: IBSManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(DriverManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: DriverManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(DISM Unattend Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: DISM Unattend Manager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(SmiManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: SmiManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(AppxManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: AppxManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(ProvManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: ProvManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(AssocManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: AssocManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(GenericManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: GenericManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(OfflineSetupManager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: OfflineSetupManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Finalizing the servicing provider(Edition Manager) - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: Edition Manager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Releasing the local reference to OSServices. - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Disconnecting Provider: OSServices - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM OS Provider: PID=1480 TID=1600 Successfully unloaded all registry hives. - CDISMOSServiceManager::Final_OnDisconnect
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1480 TID=1600 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Manager: PID=1948 TID=1940 Closing session event handle 0x1e8 - CDISMManager::CloseImageSession
+2019-12-15 12:44:14, Info                  DISM   DISM.EXE: Image session has been closed. Reboot required=no.
+2019-12-15 12:44:14, Info                  DISM   DISM.EXE: 
+2019-12-15 12:44:14, Info                  DISM   DISM.EXE: <----- Ending Dism.exe session ----->
+2019-12-15 12:44:14, Info                  DISM   DISM.EXE: 
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Found the OSServices.  Waiting to finalize it until all other providers are unloaded. - CDISMProviderStore::Final_OnDisconnect
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Disconnecting Provider: FolderManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Disconnecting Provider: WimManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Disconnecting Provider: VHDManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Disconnecting Provider: GenericImagingManager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Disconnecting Provider: Compatibility Manager - CDISMProviderStore::Internal_DisconnectProvider
+2019-12-15 12:44:14, Info                  DISM   DISM Provider Store: PID=1948 TID=1940 Releasing the local reference to DISMLogger.  Stop logging. - CDISMProviderStore::Internal_DisconnectProvider

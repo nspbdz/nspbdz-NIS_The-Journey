@@ -1,0 +1,404 @@
+[Device Install Log]
+     OS Version = 6.3.9600
+     Service Pack = 0.0
+     Suite = 0x0190
+     ProductType = 3
+     Architecture = amd64
+
+[BeginLog]
+
+[Boot Session: 2017/04/01 19:23:36.489]
+
+>>>  [Load Offline Registry Hive - SYSTEM]
+>>>  Section start 2017/04/04 09:14:09.855
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+<<<  Section end 2017/04/04 09:14:09.856
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Load Offline Registry Hive - DRIVERS]
+>>>  Section start 2017/04/04 09:14:09.856
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS'.
+<<<  Section end 2017/04/04 09:14:09.857
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Load Offline Registry Hive - SYSTEM]
+>>>  Section start 2017/04/04 09:14:09.970
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+<<<  Section end 2017/04/04 09:14:09.971
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Unload Offline Registry Hive - SYSTEM]
+>>>  Section start 2017/04/04 09:14:09.985
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+     sto: Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM' loaded by another process. Error = 0x00000005, Time = 0 ms
+<<<  Section end 2017/04/04 09:14:09.986
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Unload Offline Registry Hive - DRIVERS]
+>>>  Section start 2017/04/04 09:14:09.986
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS'.
+     sto: Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS' loaded by another process. Error = 0x00000005, Time = 0 ms
+<<<  Section end 2017/04/04 09:14:09.987
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Stage Driver Updates]
+>>>  Section start 2017/04/04 09:14:09.991
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Image State        = Generalized
+     sto: Image Architecture = amd64
+     sto: Image OS Version   = 10.0.15063
+     sto: Image Product Type = 1
+     sto: Driver Updates     = 3
+     sto: {Load Offline Registry Hive: SYSTEM} 09:14:09.992
+     sto:      Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+     sto: {Load Offline Registry Hive: exit(0x00000000)} 09:14:09.993
+     sto: {Load Offline Registry Hive: DRIVERS} 09:14:09.993
+     sto:      Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS'.
+     sto: {Load Offline Registry Hive: exit(0x00000000)} 09:14:09.993
+     sto: {Import Driver Package: c:\mount\Windows\WinSxS\amd64_dual_usbxhci.inf_31bf3856ad364e35_10.0.15063.14_none_f0963eb764728ac1\usbxhci.inf} 09:14:09.996
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     sto:      Driver Package = c:\mount\Windows\WinSxS\amd64_dual_usbxhci.inf_31bf3856ad364e35_10.0.15063.14_none_f0963eb764728ac1\usbxhci.inf
+     sto:      Architecture   = amd64
+     sto:      Flags          = 0x00000245
+     inf:      Provider       = Microsoft
+     inf:      Class GUID     = {36fc9e60-c465-11cf-8056-444553540000}
+     inf:      Driver Version = 03/30/2017,10.0.15063.14
+     inf:      Version Flags  = 0x00000003
+     inf:      {Query Configurability: c:\mount\Windows\WinSxS\amd64_dual_usbxhci.inf_31bf3856ad364e35_10.0.15063.14_none_f0963eb764728ac1\usbxhci.inf} 09:14:10.005
+     inf:           Driver package 'usbxhci.inf' is configurable.
+     inf:      {Query Configurability: exit(0x00000000)} 09:14:10.007
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_dual_usbxhci.inf_31bf3856ad364e35_10.0.15063.14_none_f0963eb764728ac1\usbxhci.inf' to 'c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_dual_usbxhci.inf_31bf3856ad364e35_10.0.15063.14_none_f0963eb764728ac1\USBXHCI.SYS' to 'c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\USBXHCI.SYS'.
+     idb:      {Register Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf} 09:14:10.011
+     idb:           Created driver package object 'usbxhci.inf_amd64_026a946ec139bf95' in SYSTEM database node.
+     idb:           Driver INF file object 'usbxhci.inf' already exists in SYSTEM database node.
+     idb:           Registered driver package 'usbxhci.inf_amd64_026a946ec139bf95' with 'usbxhci.inf'.
+     idb:      {Register Driver Package: exit(0x00000000)} 09:14:10.013
+     sto:      Driver Store Filename = c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf
+     sto: {Import Driver Package: exit(0x00000000)} 09:14:10.013
+     sto: {Import Driver Package: c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\ntprint.inf} 09:14:10.013
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     sto:      Driver Package = c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\ntprint.inf
+     sto:      Architecture   = amd64
+     sto:      Flags          = 0x00000245
+     inf:      Provider       = Microsoft
+     inf:      Class GUID     = {4d36e979-e325-11ce-bfc1-08002be10318}
+     inf:      Driver Version = 06/21/2006,10.0.15063.14
+     inf:      Catalog File   = ntprint.cat
+     inf:      Version Flags  = 0x00000001
+     inf:      {Query Configurability: c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\ntprint.inf} 09:14:10.019
+     inf:           Driver package 'ntprint.inf' is configurable.
+     inf:      {Query Configurability: exit(0x00000000)} 09:14:10.021
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\UNIRES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\UNIRES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\TTFSUB.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\TTFSUB.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\UNIDRV.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\UNIDRV.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\UNIDRV.HLP' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\UNIDRV.HLP'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PCL4RES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PCL4RES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PS_SCHM.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PS_SCHM.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\MXDWDRV.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\MXDWDRV.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PSCRIPT.HLP' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PSCRIPT.HLP'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PSCRIPT.NTF' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PSCRIPT.NTF'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PCL5ERES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PCL5ERES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PCL5URES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PCL5URES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PSCRIPT5.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PSCRIPT5.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PJL.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PJL.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\STDSCHEM.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\STDSCHEM.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\STDNAMES.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\STDNAMES.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\STDSCHMX.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\STDSCHMX.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\STDDTYPE.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\STDDTYPE.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PSCRPTFE.NTF' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PSCRPTFE.NTF'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\MSXPSINC.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\MSXPSINC.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\UNIDRVUI.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\UNIDRVUI.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\MSXPSINC.PPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\MSXPSINC.PPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PS5UI.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PS5UI.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PCLXL.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PCLXL.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PCLXL.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PCLXL.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\P6DISP.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\P6DISP.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\P6FONT.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\P6FONT.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\LOCALE.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\LOCALE.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\Amd64\PJLMON.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\Amd64\PJLMON.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\ntprint.cat' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.cat'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\amd64_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_e8b1c44bbe1117a9\ntprint.inf' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf'.
+     idb:      {Register Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf} 09:14:10.202
+     idb:           Created driver package object 'ntprint.inf_amd64_db83b590bf79c85c' in DRIVERS database node.
+     idb:           Driver INF file object 'ntprint.inf' already exists in DRIVERS database node.
+     idb:           Registered driver package 'ntprint.inf_amd64_db83b590bf79c85c' with 'ntprint.inf'.
+     idb:      {Register Driver Package: exit(0x00000000)} 09:14:10.204
+     sto:      Driver Store Filename = c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf
+     sto: {Import Driver Package: exit(0x00000000)} 09:14:10.205
+     sto: {Import Driver Package: c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\ntprint.inf} 09:14:10.205
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     sto:      Driver Package = c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\ntprint.inf
+     sto:      Architecture   = x86
+     sto:      Flags          = 0x00000245
+     inf:      Provider       = Microsoft
+     inf:      Class GUID     = {4d36e979-e325-11ce-bfc1-08002be10318}
+     inf:      Driver Version = 06/21/2006,10.0.15063.14
+     inf:      Catalog File   = ntprint.cat
+     inf:      Version Flags  = 0x00000001
+     inf:      {Query Configurability: c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\ntprint.inf} 09:14:10.210
+     inf:           Driver package 'ntprint.inf' is configurable.
+     inf:      {Query Configurability: exit(0x00000000)} 09:14:10.212
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PCL5URES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PCL5URES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PSCRIPT5.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PSCRIPT5.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PJL.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PJL.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\STDSCHEM.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\STDSCHEM.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\STDNAMES.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\STDNAMES.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\STDSCHMX.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\STDSCHMX.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\STDDTYPE.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\STDDTYPE.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PSCRPTFE.NTF' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PSCRPTFE.NTF'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\MSXPSINC.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\MSXPSINC.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\UNIDRVUI.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\UNIDRVUI.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\MSXPSINC.PPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\MSXPSINC.PPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PS5UI.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PS5UI.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PCLXL.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PCLXL.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PCLXL.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PCLXL.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\P6DISP.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\P6DISP.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\P6FONT.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\P6FONT.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\LOCALE.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\LOCALE.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PJLMON.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PJLMON.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\UNIRES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\UNIRES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\TTFSUB.GPD' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\TTFSUB.GPD'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\UNIDRV.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\UNIDRV.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\UNIDRV.HLP' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\UNIDRV.HLP'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PCL4RES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PCL4RES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PS_SCHM.GDL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PS_SCHM.GDL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\MXDWDRV.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\MXDWDRV.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PSCRIPT.HLP' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PSCRIPT.HLP'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PSCRIPT.NTF' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PSCRIPT.NTF'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\I386\PCL5ERES.DLL' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\I386\PCL5ERES.DLL'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\ntprint.cat' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\ntprint.cat'.
+     flq:      Hardlinking 'c:\mount\Windows\WinSxS\x86_ntprint.inf_31bf3856ad364e35_10.0.15063.14_none_8c9328c805b3a673\ntprint.inf' to 'c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\ntprint.inf'.
+     idb:      {Register Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\ntprint.inf} 09:14:10.480
+     idb:           Created driver package object 'ntprint.inf_x86_db83b590bf79c85c' in DRIVERS database node.
+     idb:           Driver INF file object 'ntprint.inf' already exists in DRIVERS database node.
+     idb:           Registered driver package 'ntprint.inf_x86_db83b590bf79c85c' with 'ntprint.inf'.
+     idb:      {Register Driver Package: exit(0x00000000)} 09:14:10.482
+     sto:      Driver Store Filename = c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\ntprint.inf
+     sto: {Import Driver Package: exit(0x00000000)} 09:14:10.483
+     sto: {Unload Offline Registry Hive: SYSTEM} 09:14:10.483
+     sto:      Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+     sto:      Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM' loaded by another process. Error = 0x00000005, Time = 0 ms
+     sto: {Unload Offline Registry Hive: exit(0x00000000)} 09:14:10.484
+     sto: {Unload Offline Registry Hive: DRIVERS} 09:14:10.484
+     sto:      Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS'.
+     sto:      Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS' loaded by another process. Error = 0x00000005, Time = 0 ms
+     sto: {Unload Offline Registry Hive: exit(0x00000000)} 09:14:10.484
+<<<  Section end 2017/04/04 09:14:10.485
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Install Driver Updates]
+>>>  Section start 2017/04/04 09:14:10.486
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Image State        = Generalized
+     sto: Image Architecture = amd64
+     sto: Driver Updates     = 3
+     sto: {Load Offline Registry Hive: SYSTEM} 09:14:10.487
+     sto:      Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+     sto: {Load Offline Registry Hive: exit(0x00000000)} 09:14:10.487
+     sto: {Load Offline Registry Hive: DRIVERS} 09:14:10.488
+     sto:      Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS'.
+     sto: {Load Offline Registry Hive: exit(0x00000000)} 09:14:10.488
+     sto: {Publish Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf} 09:14:10.491
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     sto:      Driver Package = usbxhci.inf_amd64_026a946ec139bf95
+     idb:      {Publish Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf} 09:14:10.492
+     idb:           Changing active driver package from 'usbxhci.inf_amd64_e2dcbf2f38ac8d9e' to 'usbxhci.inf_amd64_026a946ec139bf95'.
+     cpy:           Unpublished 'usbxhci.inf'.
+     idb:           Deindexed 1 driver file for 'usbxhci.inf_amd64_e2dcbf2f38ac8d9e'.
+     idb:           Deindexed 4 device IDs for 'usbxhci.inf_amd64_e2dcbf2f38ac8d9e'.
+     cpy:           Published 'usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf' to 'usbxhci.inf'.
+     idb:           Indexed 1 driver file for 'usbxhci.inf_amd64_026a946ec139bf95'.
+     idb:           Indexed 4 device IDs for 'usbxhci.inf_amd64_026a946ec139bf95'.
+     idb:      {Publish Driver Package: exit(0x00000000)} 09:14:10.509
+     sto: {Publish Driver Package: exit(0x00000000)} 09:14:10.510
+     sto: {Publish Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf} 09:14:10.510
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     sto:      Driver Package = ntprint.inf_amd64_db83b590bf79c85c
+     idb:      {Publish Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf} 09:14:10.511
+     idb:           Changing active driver package from 'ntprint.inf_amd64_28deabbd337eb1dc' to 'ntprint.inf_amd64_db83b590bf79c85c'.
+     cpy:           Unpublished 'ntprint.inf'.
+     idb:           Deindexed 28 driver files for 'ntprint.inf_amd64_28deabbd337eb1dc'.
+     idb:           Deindexed 6 device IDs for 'ntprint.inf_amd64_28deabbd337eb1dc'.
+     cpy:           Published 'ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf' to 'ntprint.inf'.
+     idb:           Indexed 28 driver files for 'ntprint.inf_amd64_db83b590bf79c85c'.
+     idb:           Indexed 6 device IDs for 'ntprint.inf_amd64_db83b590bf79c85c'.
+     idb:      {Publish Driver Package: exit(0x00000000)} 09:14:10.544
+!    sig:      Catalog 'ntprint.cat' already exists.
+     sig:      Published catalog 'ntprint.cat' as 'ntprint.cat'.
+     sto: {Publish Driver Package: exit(0x00000000)} 09:14:10.555
+     sto: {Load Offline Registry Hive: SOFTWARE} 09:14:10.555
+     sto:      Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SOFTWARE'.
+     sto: {Load Offline Registry Hive: exit(0x00000000)} 09:14:10.555
+     sto: {Publish Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\ntprint.inf} 09:14:10.556
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     sto:      Driver Package = ntprint.inf_x86_db83b590bf79c85c
+     idb:      {Publish Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_x86_db83b590bf79c85c\ntprint.inf} 09:14:10.557
+     idb:           Driver package 'ntprint.inf_amd64_db83b590bf79c85c' is already active.
+     idb:      {Publish Driver Package: exit(0x00000000)} 09:14:10.557
+     sto: {Publish Driver Package: exit(0x00000000)} 09:14:10.557
+     sto: {Reflect Critical Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\usbxhci.inf}
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     inf:      Class GUID     = {36fc9e60-c465-11cf-8056-444553540000}
+     inf:      Class Options  = Configurable BootCritical
+     sto:      {Load Offline Registry Hive: SOFTWARE} 09:14:10.560
+     sto:           Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SOFTWARE'.
+     sto:      {Load Offline Registry Hive: exit(0x00000000)} 09:14:10.561
+     inf:      {Configure Driver: USB xHCI Compliant Host Controller}
+     inf:           Section Name = Generic.Install.NT
+     inf:           {Add Service: USBXHCI}
+     inf:                Start Type    = 3
+     inf:                Service Type  = 1
+     inf:                Error Control = 1
+     inf:                Image Path    = \SystemRoot\System32\drivers\USBXHCI.SYS
+     inf:                Display Name  = USB xHCI Compliant Host Controller
+     inf:                Dependencies  = Ucx01000
+     inf:                Updated service 'USBXHCI'.
+     inf:           {Add Service: exit(0x00000000)}
+     inf:           Hardware Id  = PCI\CC_0C0330
+     inf:           {Configure Driver Configuration: Generic.Install.NT}
+     inf:                Service Name  = USBXHCI
+     inf:                Exclude IDs   = PCI\VEN_1B73&DEV_1000&CC_0C0330
+     inf:                                PCI\VEN_1B73&DEV_1400&CC_0C0330
+     inf:                                PCI\VEN_1B73&DEV_1009&REV_00
+     inf:                Included INFs = pci.inf
+     inf:                Config Flags  = 0x00000000
+     inf:           {Configure Driver Configuration: exit(0x00000000)}
+     inf:      {Configure Driver: exit(0x00000000)}
+     inf:      {Configure Driver: USB xHCI Compliant Host Controller}
+     inf:           Section Name = Generic.Install.NT
+     inf:           Hardware Id  = ACPI\PNP0D10
+     inf:      {Configure Driver: exit(0x00000000)}
+     inf:      {Configure Driver: USB xHCI Compliant Host Controller}
+     inf:           Section Name = Generic_NoDebug.Install.NT
+     inf:           Hardware Id  = ACPI\PNP0D15
+     inf:           {Configure Driver Configuration: Generic_NoDebug.Install.NT}
+     inf:                Service Name  = USBXHCI
+     inf:                Included INFs = pci.inf
+     inf:                Config Flags  = 0x00000000
+     inf:           {Configure Driver Configuration: exit(0x00000000)}
+     inf:      {Configure Driver: exit(0x00000000)}
+     flq:      Hardlinking 'c:\mount\Windows\System32\DriverStore\FileRepository\usbxhci.inf_amd64_026a946ec139bf95\USBXHCI.SYS' to 'c:\mount\Windows\System32\drivers\USBXHCI.SYS'.
+     idb:      Last driver package 'usbxhci.inf_amd64_e2dcbf2f38ac8d9e' to copy 'c:\mount\Windows\System32\drivers\USBXHCI.SYS' needs reconfiguration.
+     sto: {Reflect Critical Driver Package: exit(0x00000000)}
+     sto: {Reflect Critical Driver Package: c:\mount\Windows\System32\DriverStore\FileRepository\ntprint.inf_amd64_db83b590bf79c85c\ntprint.inf}
+     sto:      Driver Store   = c:\mount\Windows\System32\DriverStore (10.0.15063)
+     inf:      Class GUID     = {4d36e979-e325-11ce-bfc1-08002be10318}
+     inf:      No critical drivers to configure.
+     sto: {Reflect Critical Driver Package: exit(0x00000000)}
+     sto: Skipping non-native x86 driver package 'ntprint.inf' on amd64.
+     sto: {Unload Offline Registry Hive: SYSTEM} 09:14:10.590
+     sto:      Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+     sto:      Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM' loaded by another process. Error = 0x00000005, Time = 0 ms
+     sto: {Unload Offline Registry Hive: exit(0x00000000)} 09:14:10.591
+     sto: {Unload Offline Registry Hive: SOFTWARE} 09:14:10.591
+     sto:      Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SOFTWARE'.
+     sto:      Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SOFTWARE' loaded by another process. Error = 0x00000005, Time = 0 ms
+     sto: {Unload Offline Registry Hive: exit(0x00000000)} 09:14:10.592
+     sto: {Unload Offline Registry Hive: DRIVERS} 09:14:10.593
+     sto:      Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS'.
+     sto:      Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/DRIVERS' loaded by another process. Error = 0x00000005, Time = 0 ms
+     sto: {Unload Offline Registry Hive: exit(0x00000000)} 09:14:10.593
+<<<  Section end 2017/04/04 09:14:10.594
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Unload Offline Registry Hive - SYSTEM]
+>>>  Section start 2017/04/04 09:14:11.546
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM'.
+     sto: Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SYSTEM' loaded by another process. Error = 0x00000005, Time = 0 ms
+<<<  Section end 2017/04/04 09:14:11.546
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Unload Offline Registry Hive - SOFTWARE]
+>>>  Section start 2017/04/04 09:14:11.547
+       os: Version = 6.3.9600, Service Pack = 0.0, Suite = 0x0190, ProductType = 3, Architecture = amd64
+      cmd: C:\Users\The_Rain\AppData\Local\Temp\9E715596-D68F-48D8-AECD-09C040506B6E\dismhost.exe {48AFA7DF-D713-45FA-9D48-B66365D2BA3A}
+     sto: Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SOFTWARE'.
+     sto: Unable to unload hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}c:/mount/Windows/System32/config/SOFTWARE' loaded by another process. Error = 0x00000005, Time = 0 ms
+<<<  Section end 2017/04/04 09:14:11.547
+<<<  [Exit status: SUCCESS]
+
+
+[Boot Session: 2020/01/27 19:58:41.496]
+
+>>>  [Load Offline Registry Hive - SYSTEM]
+>>>  Section start 2020/01/27 19:59:03.137
+       os: Version = 10.0.15063, Service Pack = 0.0, Suite = 0x0100, ProductType = 1, Architecture = amd64
+      cmd: sysreset.exe  -BasicReset
+     sto: Loaded hive 'D:\Windows\System32\config\SYSTEM'. Time = 94 ms
+     sto: Opened hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/SYSTEM'.
+     sto: Delay unloading hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/SYSTEM'.
+<<<  Section end 2020/01/27 19:59:03.231
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Load Offline Registry Hive - DRIVERS]
+>>>  Section start 2020/01/27 19:59:03.231
+       os: Version = 10.0.15063, Service Pack = 0.0, Suite = 0x0100, ProductType = 1, Architecture = amd64
+      cmd: sysreset.exe  -BasicReset
+     sto: Loaded hive 'D:\Windows\System32\config\DRIVERS'. Time = 46 ms
+     sto: Opened hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/DRIVERS'.
+     sto: Delay unloading hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/DRIVERS'.
+<<<  Section end 2020/01/27 19:59:03.278
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Unload Offline Registry Hive - SYSTEM]
+>>>  Section start 2020/01/27 19:59:03.294
+       os: Version = 10.0.15063, Service Pack = 0.0, Suite = 0x0100, ProductType = 1, Architecture = amd64
+      cmd: sysreset.exe  -BasicReset
+     sto: Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/SYSTEM'.
+     sto: Unloaded hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/SYSTEM'. Time = 125 ms
+<<<  Section end 2020/01/27 19:59:03.419
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Unload Offline Registry Hive - DRIVERS]
+>>>  Section start 2020/01/27 19:59:03.419
+       os: Version = 10.0.15063, Service Pack = 0.0, Suite = 0x0100, ProductType = 1, Architecture = amd64
+      cmd: sysreset.exe  -BasicReset
+     sto: Closed hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/DRIVERS'.
+     sto: Unloaded hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/DRIVERS'. Time = 0 ms
+<<<  Section end 2020/01/27 19:59:03.419
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Load Offline Registry Hive - SYSTEM]
+>>>  Section start 2020/01/27 19:59:04.778
+       os: Version = 10.0.15063, Service Pack = 0.0, Suite = 0x0100, ProductType = 1, Architecture = amd64
+      cmd: D:\$SysReset\Scratch\3D507C0B-F842-420F-89A4-8BA148FA63F0\dismhost.exe {AF65990D-25C9-4D76-9954-868120336D90}
+     sto: Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/SYSTEM'.
+<<<  Section end 2020/01/27 19:59:04.778
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Load Offline Registry Hive - DRIVERS]
+>>>  Section start 2020/01/27 19:59:04.778
+       os: Version = 10.0.15063, Service Pack = 0.0, Suite = 0x0100, ProductType = 1, Architecture = amd64
+      cmd: D:\$SysReset\Scratch\3D507C0B-F842-420F-89A4-8BA148FA63F0\dismhost.exe {AF65990D-25C9-4D76-9954-868120336D90}
+     sto: Opened existing hive key '{bf1a281b-ad7b-4476-ac95-f47682990ce7}D:/Windows/System32/config/DRIVERS'.
+<<<  Section end 2020/01/27 19:59:04.778
+<<<  [Exit status: SUCCESS]
+
