@@ -6,7 +6,7 @@ import NotFound from "./NotFound";
 import CardList from "../components/CardList";
 import "../styles/customStyle.css"
 import { API } from "../config/api";
-import draftToHtml from 'draftjs-to-html';
+
 
 
 const DetailJourney = ({ match }) => {
@@ -25,7 +25,7 @@ const DetailJourney = ({ match }) => {
       console.log(response)
       setJourney({
         ...response.data.data,
-        description: draftToHtml(JSON.parse(response.data.data.description)),
+        description: response.data.data.descriptionp
     });
 
     } catch (error) {

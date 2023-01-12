@@ -8,7 +8,7 @@ import { API } from "../config/api";
 import { useHistory, Router, Link } from "react-router-dom";
 import ExpendableText from "./ExpendableText"
 import { BsBookmarkFill, BsBookmark } from "react-icons/bs";
-import draftToHtml from 'draftjs-to-html';
+
 
 var striptags = require('striptags');
 function UserBookmarkItem({ data }) {
@@ -63,9 +63,7 @@ function UserBookmarkItem({ data }) {
                       <span id="titleCardList" >{item.journey.title}</span>
                       <span id="dateCardList">   {item.journey.createdAt}  {item.user.fullName}   </span>
 
-                      <ExpendableText maxHeight={85} id="descriptionCardList">
-                      {striptags(draftToHtml(JSON.parse(item.journey.description)))}
-                      </ExpendableText>
+                     
 
                     </Card.Title>
 

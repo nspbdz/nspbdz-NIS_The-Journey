@@ -2,7 +2,7 @@ import { useState, useContext, useEffect } from "react";
 import { Row, Col, Form, Button, Container, Alert, InputGroup, FormControl } from "react-bootstrap";
 import { Modal } from "react-bootstrap";
 import "../../styles/customStyle.css";
-import draftToHtml from 'draftjs-to-html';
+
 import { useHistory, Router, Link } from "react-router-dom";
 import { API } from "../../config/api";
 import { CgAttachment } from "react-icons/cg";

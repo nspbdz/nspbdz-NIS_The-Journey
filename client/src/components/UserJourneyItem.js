@@ -6,7 +6,7 @@ import "../styles/customStyle.css";
 import { UserContext } from "../context/userContext";
 import { FaRegEdit } from "react-icons/fa";
 import { FiTrash } from "react-icons/fi";
-import draftToHtml from 'draftjs-to-html';
+
 
 import ExpendableText from "./ExpendableText"
 var striptags = require('striptags');
@@ -64,10 +64,7 @@ return (
                 <span id="titleCardList" >{item.title}</span>
                 <span id="dateCardList">   {item.createdAt}  {item.user.fullName}   </span>
 
-                <ExpendableText maxHeight={85} id="descriptionCardList">
-                  {striptags(draftToHtml(JSON.parse(item.description)))}
-                </ExpendableText>
-
+               
               </Card.Title>
 
             </Card.Body>
